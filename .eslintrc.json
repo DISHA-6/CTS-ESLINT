@@ -1,32 +1,7 @@
 {
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "react-app",
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "prettier"
-  ],
-  "parserOptions": {
-    "ecmaVersion": "latest",
-    "sourceType": "module",
-    "ecmaFeatures": {
-      "jsx": true
-    }
-  },
+  "extends": ["react-app", "eslint:recommended"],
   "rules": {
-    "no-console": "warn",
     "semi": ["error", "always"],
-    "quotes": ["error", "single"],
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off"
-  },
-  "settings": {
-    "react": {
-      "version": "detect"
-    }
+    "quotes": ["error", "single"]
   }
 }
